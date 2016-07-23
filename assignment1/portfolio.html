@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- tab title and css reference links -->
+		<title>Portfolio</title>
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	</head>
+	
+	<body style="background-image:url(assets/images/cork-wallet.png)">
+		<header>
+		<!-- parent container header has width 100% to span the browser width -->
+		<div class="headerContent">
+		<!-- Created the .header class to set the header content width=container body content width -->
+			<div class="logo">
+				<h1>John-Mike Marquardt</h1>
+			</div>
+			
+			<nav id="headerNav">
+			<!-- header nav buttons -->
+				<a href="index.html">About</a>
+				<a href="portfolio.html">Portfolio</a>
+				<a href="contact.html" id="contactHeadButton">Contact</a>
+			</nav>
+		</div>
+		</header>
+
+		<div class="container">
+		<!--main page content container.  Content area has max-width of 960px with a content section of 650px 
+			and an aside of 270px.  -->
+			<section id="gallery">
+				<h2>Portfolio</h2>
+					<figure>
+						<img src="assets/images/lion.jfif" alt="picture of tiger sleeping on his side">
+						<figcaption>Portfolio 1</figcaption>
+					</figure>
+
+					<figure>
+						<img src="assets/images/people.jpg" alt="picture of people" height="200" width="400">
+						<figcaption>Portfolio 2</figcaption>
+					</figure>
+					
+					<figure>
+						<img src="assets/images/grey.jfif" alt="black and white photo of trees">
+						<figcaption>Placeholder 3</figcaption>
+					</figure>
+
+			</section>
+
+			<aside>
+			<!-- 'Connect with me' box, horizontal row of 3 social media buttons linking to profiles on github, linkedin and stack overflow-->
+				<h3>Connect with Me</h3>
+				<nav>
+					<a href="https://github.com/codemarq"><img src="assets/images/github.png" alt="github cat logo in black button." height="60" width="60"></a>
+
+					<a href="https://www.linkedin.com/in/jmmarquardt"><img src="assets/images/linkedin.png" alt="Linked In logo in blue button" height="60" width="60"></a>
+
+					<a href="http://stackoverflow.com/users/6581996/john-mike-marquardt?tab=profile"><img src="assets/images/overflow.png" alt="Stack Overflow logo in orange button" height="60" width="60"></a>
+				</nav>
+			</aside>
+
+		</div>
+	</body>
+	
+	<footer>
+	<!-- try to make a 'sticky' footer, grey with tip teal boarder that contains one line of centered text copyright info -->
+		&copy; Copyright 2016 John-Michael Marquardt
+	</footer>
+</html>
