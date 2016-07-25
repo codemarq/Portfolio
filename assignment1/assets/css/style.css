@@ -246,3 +246,20 @@ form p {
 	border-width: 1px;
 	margin-top: 10px;
 }
+
+/* Rule to set layout style on screens less than 960pxWide*/
+@media screen and (max-width: 960px) {
+
+}
+
+
+/* Rule to set layout style on screens less than 960pxWide*/
+@media screen and (max-width: 768px) {
+
+}
+
+
+/* Rule to set layout style on screens less than 960pxWide*/
+@media screen and (max-width: 640px) {
+
+}
